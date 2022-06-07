@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@minhle591 
-minhle591
-/
-API
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-API/main.py /
-@minhle591
-minhle591 Update main.py
-Latest commit 94b55a6 yesterday
- History
- 1 contributor
-238 lines (207 sloc)  8.18 KB
-   
 from typing import Optional
 from fastapi import FastAPI
 import requests
@@ -265,16 +236,3 @@ def read_item(phone: Optional[str] = None):
 def read_item(phone: Optional[str] = None):
     done = thegioididong(phone)
     return done
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
