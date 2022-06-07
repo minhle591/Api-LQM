@@ -1,3 +1,32 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@minhle591 
+minhle591
+/
+API
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+API/main.py /
+@minhle591
+minhle591 Update main.py
+Latest commit 94b55a6 yesterday
+ History
+ 1 contributor
+238 lines (207 sloc)  8.18 KB
+   
 from typing import Optional
 from fastapi import FastAPI
 import requests
@@ -33,7 +62,7 @@ headers = {
 }
 
 def tiki(phone):
-    if phone == "0395524153" or phone == "84395524153":
+    if phone == "0328774559" or phone == "84328774559":
         return "Spam Số Tao Làm Lồn À!"
     else:
         try:
@@ -46,7 +75,7 @@ def tiki(phone):
             return "Lỗi Không Xác Định!"
 
 def grab_food(phone):
-    if phone == "0395524153" or phone == "84395524153":
+    if phone == "0328774559" or phone == "84328774559":
         return "Spam Số Tao Làm Lồn À!"
     else:
         try:
@@ -66,7 +95,7 @@ def grab_food(phone):
             return "Lỗi Không Xác Định!"
     
 def bach_hoa_xanh(phone):
-    if phone == "0395524153" or phone == "84395524153":
+    if phone == "0328774559" or phone == "84328774559":
         return "Spam Số Tao Làm Lồn À!"
     else:
         try:
@@ -81,7 +110,7 @@ def bach_hoa_xanh(phone):
             return "Lỗi Không Xác Định!" 
     
 def meta_vn(phone):
-    if phone == "0395524153" or phone == "84395524153":
+    if phone == "0328774559" or phone == "84328774559":
         return "Spam Số Tao Làm Lồn À!"
     else:
         try:
@@ -104,7 +133,7 @@ def meta_vn(phone):
             return "Lỗi Không Xác Định!"    
 
 def elines(phone):
-    if phone == "0395524153" or phone == "84395524153":
+    if phone == "0328774559" or phone == "84328774559":
         return "Spam Số Tao Làm Lồn À!"
     else:
         try:
@@ -119,7 +148,7 @@ def elines(phone):
             return "Lỗi Không Xác Định!"  
         
 def gojoy(phone):
-    if phone == "0395524153" or phone == "84395524153":
+    if phone == "0328774559" or phone == "84328774559":
         return "Spam Số Tao Làm Lồn À!"
     else:
         try:
@@ -149,7 +178,7 @@ def gojoy(phone):
             return "Lỗi Không Xác Định!" 
         
 def vntrip(phone):
-    if phone == "0395524153" or phone == "84395524153":
+    if phone == "0328774559" or phone == "84328774559":
         return "Spam Số Tao Làm Lồn À!"
     else:
         try:
@@ -164,7 +193,7 @@ def vntrip(phone):
             return "Lỗi Không Xác Định!" 
 
 def nhaphang247(phone):
-    if phone == "0395524153" or phone == "84395524153":
+    if phone == "0328774559" or phone == "84328774559":
         return "Spam Số Tao Làm Lồn À!"
     else:
         try:
@@ -178,7 +207,7 @@ def nhaphang247(phone):
             return "Lỗi Không Xác Định!" 
 
 def thegioididong(phone):
-    if phone == "0395524153" or phone == "84395524153":
+    if phone == "0328774559" or phone == "84328774559":
         return "Spam Số Tao Làm Lồn À!"
     else:
         try:
@@ -236,3 +265,16 @@ def read_item(phone: Optional[str] = None):
 def read_item(phone: Optional[str] = None):
     done = thegioididong(phone)
     return done
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
